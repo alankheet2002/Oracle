@@ -6,8 +6,17 @@ def answer_me():
         lines = text.split('\n')
         return random.choice(lines).strip()
 
-for i in range(1):
+#for testing the code: 
+for i in range(5):
     print(i, ":", answer_me())
+
+""" These are example answers, since it will be random:
+1 : As I see it, yes.
+2 : Ask again later.
+3 : As I see it, yes.
+4 : My sources say no.
+5 : Most likely.
+"""
 
 def oracle():
     state = ''
